@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GroceryList Website</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style type="text/css">
+      * {
+        box-sizing: border-box;
+      }
+      .h1 {
+        color: rgb(54, 181, 151);
+        text-align: center;
+        text-decoration: underline;
+        padding-bottom: 60px;
+      }
+      .box {
+        width: 49%;
+        height: 80px;
+        border: 3px solid black;
+        padding: 10px;
+        /* margin: 33px; */
+        margin-left: 60px;
+        background-color: antiquewhite;
+      }
+      .pantryItem-box {
+        display: grid;
+        width: 25%;
+        height: 200px;
+        border: 3px solid black;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(185, 180, 180);
+      }
+      .frozenItem-box {
+        display: grid;
+        width: 25%;
+        height: 200px;
+        border: 3px solid black;
+        padding: 10px;
+        margin: 10px;
+        background-color: rgb(185, 180, 180);
+      }
+      .img {
+        display: grid;
+        width: 25%;
+        height: 200px;
+        border: 0px solid white;
+        padding: 10px;
+        margin: 1px;
+      }
+      .empty-box {
+        display: grid;
+        width: 25%;
+        height: 200px;
+        /* border: 3px solid black; */
+        padding: 10px;
+        margin: 10px;
+        /* background-color: rgb(185, 180, 180); */
+      }
+      .container {
+        width: 100%;
+        /* border: 5px solid rgb(111, 41, 97); */
+        border-radius: 0.5em;
+        padding: 10px;
+        padding-right: 6px;
+        padding-bottom: 60px;
+        display: flex;
+        justify-content: space-between;
+        /* margin: 1em; */
+        margin-left: 40px;
+        margin-right: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="h1">My Very Organized Grocery List....!!</h1>
+
+    <div class="box">
+      <h1>PANTRY ITEMS</h1>
+    </div>
+    <div class="container">
+      <div class="pantryItem-box" style="margin-right: 60px">
+        <h1>CANNED</h1>
+        <ul style="font-size: large">
+          <li>Corn</li>
+          <li>Tuna</li>
+          <li>Green Beans</li>
+          <li>Beans</li>
+        </ul>
+      </div>
+      <div class="pantryItem-box">
+        <h1>DRY GOODS</h1>
+        <ul style="font-size: large">
+          <li>Rice</li>
+          <li>Lentils</li>
+          <li>Oats</li>
+          <li>Pancake Mix</li>
+        </ul>
+      </div>
+      <div class="img" style="margin-left: 20px">
+        <img
+          src="PantryItem.jpg"
+          ,
+          width="477"
+          height="195"
+          alt="pantry image"
+          class=""
+        />
+      </div>
+      <div class="empty-box">
+        <h3></h3>
+      </div>
+    </div>
+    <div class="box">
+      <h1>FROZEN ITEMS</h1>
+    </div>
+    <div class="container">
+      <div class="frozenItem-box" style="margin-right: 60px">
+        <h1>VEGGIES</h1>
+        <ol style="font-size: large">
+          <li>Broccoli</li>
+          <li>Carrots</li>
+          <li>Cauliflowers</li>
+          <li>Bell Papers</li>
+        </ol>
+      </div>
+      <div class="frozenItem-box">
+        <h1>SNACKS</h1>
+        <ol style="font-size: large">
+          <li>Chicken Nuggets</li>
+          <li>Hot Pockets</li>
+          <li>Fries</li>
+          <li>Tator Tots</li>
+        </ol>
+      </div>
+      <div class="img" style="margin-left: 20px">
+        <img
+          src="FrozenFood.jpg"
+          ,
+          width="477"
+          height="195"
+          alt="Frozen image"
+        />
+      </div>
+      <div class="empty-box">
+        <h3></h3>
+      </div>
+    </div>
+  </body>
+</html>
