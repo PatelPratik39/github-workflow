@@ -19,6 +19,6 @@
     - simple grocery shopping webpage.
     - Simple Mini Animal Zoo webpage with information.
     # week03 - 02 --> Create Grocery list website using CSS styling
-      * multiple boxes with image set up inside box
-      * multiple grocerylists
-      * multiple headings with ordered lists
+      - multiple boxes with image set up inside box
+      - multiple grocerylists
+      - multiple headings with ordered lists
